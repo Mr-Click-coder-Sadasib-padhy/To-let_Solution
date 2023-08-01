@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register_style.css">
+    <title>Register Form</title>
+</head>
+<body>
+<div class="container">
+    <form id="form" class="form" method="post" autocomplete="off" action="Login_store.jsp" >
+        <h2>Register with To-let Solution</h2>
+        <h5>Oops!! I have already account!!<a href="Login.html">login</a></h5>
+ <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter fullname" name="name" required>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="dob">DOB</label>
+            <input type="date"  id="dob" placeholder="dd-mm-yyyy" name="Dob" required>
+            <small>Error message</small>
+        </div>
+        
+        <div class="form-control">
+            <label for="Address">Address</label>
+            <textarea id="Address" name="Address" rows="4" cols="40" required></textarea> 
+            <small>Error message</small>
+        </div>
+			
+        <div class="form-control">
+            <label for="country">Country</label>
+            <select name ="country" id="country" required>
+                <Option value="-Select-">-Select-
+                <Option value="USA">USA
+                <Option value="Japan">Japan
+                <Option value="Austrlia">Austrelia
+                <Option value="India">India
+                <Option value="America">America
+                </select> 
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="state">State</label>
+            <select name ="state" id="state" required>
+                <Option value="-Select-">-Select-
+                <Option value="Punjab">Punjab
+                <Option value="keral">keral
+                <Option value="Hariyana">Hariyana
+                <Option value="Chenai">Chenai
+                <Option value="Odisha">Odisha
+                </select> 
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="district">District</label>
+            <select name ="district" id="district" required>
+                <Option value="-Select-">-Select-
+                <Option value="Khurdha">Khurdha
+                <Option value="Cuttack">Cuttack
+                <Option value="Boudh">Boudh
+                <Option value="Jagatsinghpur">Jagatsinghpur
+                <Option value="puri">puri
+                </select> 
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="pin">Zip Code</label>
+            <input type="number" id="pin" placeholder="Enter Zip Code" name="Zip_code" required>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username" Name="Username" required>
+            <small>Error message</small>
+        </div>
+        
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email" Name="Email" required>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" placeholder="Enter Phone Number" Name="Phone" required>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" Name="Password" required>
+            <small>Error message</small>
+        </div>
+       
+        <div class="form-control">
+            <label for="password2">Confirm Passsword</label>
+            <input type="password" id="password2" placeholder="Enter password again" Name="Confirmpassword" required>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="file">Upload id</label>
+            <input type="file" id="file" Name="File" required>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="forgot">What is your favorite place you want to visit?</label>
+            <input type="password" id="forgot" placeholder="Favorite place" Name="Favoriteplace" required>
+            <small>Error message</small>
+        </div>   
+        <button type="submit">Submit</button>
+        
+    </form>
+</div>
+        
+
+    <!-- <script src="Register_script.js"></script>  -->
+</body>
+</html>
